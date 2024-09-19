@@ -55,7 +55,12 @@ cout <<"Studento amzius "<< Amzius<< endl;
         cin>>q>>w>>e>>r>>t;
     cout<<"Skaiciu vidurkis lygus "<<(q+w+e+r+t)/5<<endl;
     //sestas darbas
-   
+   int l;
+    cout<<"Iveskite dvieznkli skaiciu "<<endl;
+    cin>>l;
+    int p=l/10;
+    int k=l%10;
+    cout<<"Skaiciaus skaitmenu suma lygu "<< p+k <<endl;
     return 0;
 }
 
