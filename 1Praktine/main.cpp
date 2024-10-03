@@ -7,7 +7,7 @@ float INR;
 float EUR;
 int pas1;
 int pas2;
-float kiekis;//valiutos
+float kiekis;
 void pradzia() {
     cout<<"Pasirinkite norima veiksma "<<endl;
     cout<<"1.Pirkti valiuta "<<endl;
