@@ -133,7 +133,7 @@ int main() {
         }
     }
         while(pas1!=0);
-    // cout<<"Viso gero!";
+    cout<<"Viso gero!";
     return 0;
 }
 
