@@ -79,9 +79,9 @@ int main() {
         switch (pas1) {
             case 1:
                 cout<<"Iveskite raide kuria norit patikrint ar balse"<<endl;
-            cout<<"Iveskite zenkla '-' jei norit grizti"<<endl;
+            cout<<"Iveskite nuli jei norit grizti"<<endl;
             cin>>raide;
-            if(raide=='-') {
+            if(raide=='0') {
                 pradzia();
             }
             if (arbalsis(raide)) {
@@ -133,7 +133,7 @@ int main() {
         }
     }
         while(pas1!=0);
-    cout<<"Viso gero!";
+    // cout<<"Viso gero!";
     return 0;
 }
 

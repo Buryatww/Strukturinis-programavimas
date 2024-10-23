@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Strukturinis/2praktine/cmake-build-debug",
-		"source" : "D:/Strukturinis/2praktine"
+		"build" : "D:/Strukturinis/Strukturinis-programavimas/2praktine/cmake-build-debug",
+		"source" : "D:/Strukturinis/Strukturinis-programavimas/2praktine"
 	},
 	"version" : 
 	{

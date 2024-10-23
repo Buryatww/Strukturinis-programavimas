@@ -1,3 +1,3 @@
-D:/Strukturinis/2praktine/cmake-build-debug/CMakeFiles/2praktine.dir
-D:/Strukturinis/2praktine/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Strukturinis/2praktine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Strukturinis/Strukturinis-programavimas/2praktine/cmake-build-debug/CMakeFiles/2praktine.dir
+D:/Strukturinis/Strukturinis-programavimas/2praktine/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Strukturinis/Strukturinis-programavimas/2praktine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
