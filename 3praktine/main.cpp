@@ -63,7 +63,6 @@ void ascii(string zodis ,string raktas) {
     }
     cout << "Desifruotas zodis: "<< zodis << endl;
 }
-////
 int main() {
 string zodis,raktas;
     int pasirinkimas;
