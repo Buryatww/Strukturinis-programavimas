@@ -47,18 +47,18 @@ void sifravimas(string zodis ,string raktas) {
 }
 void ascii(string zodis ,string raktas) {
     int m, k, c;
-    for (int i = 0; i < zodis.length(); i++) {
+    for (int i = 0; i < zodis.size(); i++) {
         m = int(zodis[i]);
         k = int(raktas[i % raktas.size()]);
-        c = 32 + ((m + k - 2 * 32) % 91);
+        c = 32 + ((m + k - 2 * 32) % 94);
         zodis[i] = char(c);
     }
     cout << "Sifruotas zodis: "<< zodis << endl;
 
-    for (int i = 0; i<zodis.length(); i++) {
+    for (int i = 0; i<zodis.size(); i++) {
         m = int(zodis[i]);
         k = int(raktas[i % raktas.size()]);
-        c = 32 + ((m - k +91) % 91);
+        c = 32 + ((m - k +94) % 94);
         zodis[i] = char(c);
     }
     cout << "Desifruotas zodis: "<< zodis << endl;
