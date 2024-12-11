@@ -72,11 +72,11 @@ void saskaita() {
         if (uzs[i].kiekis > 0) {
             cout << left << uzs[i].kiekis << " " << setw(40) << men[uzs[i].pozicija].name << right << fixed << setprecision(2) << men[uzs[i].pozicija].price * uzs[i].kiekis << " Eur" << endl;
             mokesciai += (men[uzs[i].pozicija].price * uzs[i].kiekis) * 0.21;
-            bendra += (men[uzs[i].pozicija].price * uzs[i].kiekis) + mokesciai;
+            bendra += men[uzs[i].pozicija].price * uzs[i].kiekis;
         }
     }
-    cout  << "Mokesciu suma " << setw(40) << right << fixed << setprecision(2) << mokesciai << " Eur" << endl;
-    cout  << "Galutine suma " << setw(40) << right << fixed << setprecision(2) << bendra << " Eur" << endl;
+    cout  << "Mokesciu suma " << setw(33) << right << fixed << setprecision(2) << mokesciai << " Eur" << endl;
+    cout  << "Galutine suma " << setw(33) << right << fixed << setprecision(2) << bendra + mokesciai << " Eur" << endl;
 }
 
 int main()
