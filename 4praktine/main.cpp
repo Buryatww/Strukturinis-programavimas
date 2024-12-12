@@ -64,11 +64,18 @@ void iskvietimas() {
         uzsakymas(pas, kiek);
     }
 }
+<<<<<<< HEAD
 
 void saskaita() {
     double mokesciai;
     double bendra;
     int uzslength = size(uzs);
+=======
+void saskaita() {
+    int uzslength = size(uzs);
+    double mokesciai;
+    double bendra;
+>>>>>>> 1ba13c172c4e2dec6b913b2b169a7d8102c533c3
     for (int i = 0; i < uzslength; i++) {
         if (uzs[i].kiekis > 0) {
             cout << left << uzs[i].kiekis << " " << setw(40) << men[uzs[i].pozicija].name << right << fixed << setprecision(2) << men[uzs[i].pozicija].price * uzs[i].kiekis << " Eur" << endl;
@@ -82,14 +89,23 @@ void saskaita() {
 
 int main()
 {
+<<<<<<< HEAD
     ofstream cekis;
     cekis.open("cekis.txt");
+=======
+>>>>>>> 1ba13c172c4e2dec6b913b2b169a7d8102c533c3
     cout << "Laba diena!" << endl;
     iskvietimas();
     cout << "Jusu uzsakymas yra: " << endl;
     saskaita();
     cout << "Maistas jau salia! " << endl;
+<<<<<<< HEAD
     cekis << "saskaita" << endl;
+=======
+    ofstream  cekis;
+    cekis.open("cekis.txt");
+    cekis << saskaita << endl;
+>>>>>>> 1ba13c172c4e2dec6b913b2b169a7d8102c533c3
     cekis.close();
     return 0;
 }

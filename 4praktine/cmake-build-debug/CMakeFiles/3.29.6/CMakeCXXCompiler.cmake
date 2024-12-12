@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 set(CMAKE_CXX_COMPILER "C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/g++.exe")
+=======
+set(CMAKE_CXX_COMPILER "D:/Games/CLion 2024.2.2/bin/mingw/bin/g++.exe")
+>>>>>>> 1ba13c172c4e2dec6b913b2b169a7d8102c533c3
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "13.1.0")
@@ -22,6 +26,7 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
+<<<<<<< HEAD
 set(CMAKE_AR "C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/ar.exe")
 set(CMAKE_CXX_COMPILER_AR "C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/gcc-ar.exe")
 set(CMAKE_RANLIB "C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/ranlib.exe")
@@ -30,6 +35,16 @@ set(CMAKE_LINKER "C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/ld.e
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_CXX_COMPILER_LINKER "C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/ld.exe")
+=======
+set(CMAKE_AR "D:/Games/CLion 2024.2.2/bin/mingw/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "D:/Games/CLion 2024.2.2/bin/mingw/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "D:/Games/CLion 2024.2.2/bin/mingw/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "D:/Games/CLion 2024.2.2/bin/mingw/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/Games/CLion 2024.2.2/bin/mingw/bin/ld.exe")
+set(CMAKE_LINKER_LINK "")
+set(CMAKE_LINKER_LLD "")
+set(CMAKE_CXX_COMPILER_LINKER "D:/Games/CLion 2024.2.2/bin/mingw/bin/ld.exe")
+>>>>>>> 1ba13c172c4e2dec6b913b2b169a7d8102c533c3
 set(CMAKE_CXX_COMPILER_LINKER_ID "GNU")
 set(CMAKE_CXX_COMPILER_LINKER_VERSION 2.40)
 set(CMAKE_CXX_COMPILER_LINKER_FRONTEND_VARIANT GNU)
@@ -85,7 +100,11 @@ endif()
 
 
 
+<<<<<<< HEAD
 set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/include;C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include")
+=======
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/Games/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;D:/Games/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;D:/Games/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;D:/Games/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;D:/Games/CLion 2024.2.2/bin/mingw/include;D:/Games/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;D:/Games/CLion 2024.2.2/bin/mingw/x86_64-w64-mingw32/include")
+>>>>>>> 1ba13c172c4e2dec6b913b2b169a7d8102c533c3
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

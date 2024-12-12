@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\s057496\Documents\Strukturinis-programavimas\4praktine -B C:\Users\s057496\Documents\Strukturinis-programavimas\4praktine\cmake-build-debug
 -- The C compiler identification is GNU 13.1.0
 -- The CXX compiler identification is GNU 13.1.0
@@ -14,3 +15,9 @@
 -- Configuring done (3.5s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/s057496/Documents/Strukturinis-programavimas/4praktine/cmake-build-debug
+=======
+"D:\Games\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Games/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\Strukturinis\Strukturinis-programavimas\4praktine -B D:\Strukturinis\Strukturinis-programavimas\4praktine\cmake-build-debug
+-- Configuring done (0.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: D:/Strukturinis/Strukturinis-programavimas/4praktine/cmake-build-debug
+>>>>>>> 1ba13c172c4e2dec6b913b2b169a7d8102c533c3
